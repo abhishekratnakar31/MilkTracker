@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  /* Warm, earthy palette */
+  --background: #FDFBF7; /* Cream/Off-white */
+  --foreground: #2D2424; /* Dark warm charcoal */
+  
+  --primary: #8B5E3C; /* Terracotta/Brown */
+  --primary-foreground: #FDFBF7;
+  
+  --secondary: #E6D5B8; /* Beige/Sand */
+  --secondary-foreground: #2D2424;
+  
+  --accent: #A4B494; /* Sage Green */
+  --accent-foreground: #2D2424;
+  
+  --muted: #F2E8DC;
+  --muted-foreground: #6B5D5D;
+  
+  --border: #E6D5B8;
+  --input: #FDFBF7;
+  --ring: #8B5E3C;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1C1917; /* Dark warm grey */
+    --foreground: #F2E8DC;
+    
+    --primary: #A4B494; /* Sage Green for dark mode contrast */
+    --primary-foreground: #1C1917;
+    
+    --secondary: #2D2424;
+    --secondary-foreground: #F2E8DC;
+    
+    --accent: #8B5E3C;
+    --accent-foreground: #F2E8DC;
+    
+    --muted: #2D2424;
+    --muted-foreground: #A89F9F;
+    
+    --border: #443C3C;
+    --input: #1C1917;
+    --ring: #A4B494;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', sans-serif; /* Using a clean font, assuming Inter is available or fallback */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
