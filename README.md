@@ -10,6 +10,8 @@
 - **Contract Address:** `0x5a2fF245Af24DCa6635b80BA83184be50642ED75`
 - **Explorer:** [View on Coston2 Explorer](https://coston2-explorer.flare.network/address/0x5a2fF245Af24DCa6635b80BA83184be50642ED75)
 
+<img width="1677" height="926" alt="Screenshot 2025-11-28 at 2 09 23 PM" src="https://github.com/user-attachments/assets/a8bf422c-e56d-4f8f-bd5a-2d76c814aeeb" />
+
 ---
 
 ## 🚀 Project Overview
